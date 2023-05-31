@@ -1,6 +1,4 @@
-module.exports = {
-    printWidth: 120,
-    singleQuote: true,
-    trailingComma: 'none',
-    endOfLine: 'auto'
-}
+printWidth: 110
+endOfLine: 'auto'
+singleQuote: true
+trailingComma: 'none'
