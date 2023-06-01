@@ -4,6 +4,6 @@ import { registerGameFactory } from '../useCases/RegisterGameFactory';
 
 const registerRoutes = Router();
 const registerGameController = registerGameFactory();
-registerRoutes.post('/', registerGameController.handle);
+registerRoutes.post('/register', registerGameController.handle);
 
 export { registerRoutes };
